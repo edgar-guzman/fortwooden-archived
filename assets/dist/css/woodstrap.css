@@ -1,0 +1,43 @@
+:root {
+  --main-color: #000000;
+  --price-color: #808080;
+  --backup-blue: #0178d4;
+  --hover-color: #d3d3d3;
+  --example-color: #ffffe0;
+  --highlight-color: #ffff00;
+  --secondary-color: #ffffff;
+  --danger-main-color: #ff0000;
+  --supergreen: #c8ff00;
+  --red: #FF0018;
+  --orange: #FFA52C;
+  --b-yellow: #FFFF41;
+  --l-yellow: #f3ec78;
+  --b-green: #008018;
+  --b-blue: #0000F9;
+  --purple: #86007D;
+}
+
+::-moz-selection {
+  background-color: var(--highlight-color);
+}
+
+::selection {
+  background-color: var(--highlight-color);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+/*# sourceMappingURL=woodstrap.css.map */
